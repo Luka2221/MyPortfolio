@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+     font-family: "Poppins", sans-serif;
+     background-color: #f0ebe3;
+}
+.hamburgeMenu{
+    display: non;
+}
+
+/* Main Logo Name */
+.Main-Logo{
+    font-size: 2rem;
+}
+.Main-Logo:hover{
+    cursor: pointer;
+}
+/* Header container */
+.header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+} 
+.navTags{
+    text-decoration: none;
+    color: black;
+    text-decoration-color: white;   
+}
+.navTags:hover{
+    color: gray;
+    text-underline-offset: 1rem;
+    text-decoration: underline;
+}
+/*Main section  */
+.MyImage{
+    width: 250px;
+    border-radius: 150px;
+}
+/* section first */
+.Main-Section{
+    display: flex;
+    height: 100vh;
+    /* margin: 0 25rem; */
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+/* description, links and buttons */
+.RighSeCtionSide{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    text-align: center;
+}
+.Github-Logo{
+    width: 28px;
+}
+.HelloDesc{
+    color: gray;
+}
+.MyName{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.Profesion{
+    font-size: 20px;
+    color: gray;
+
+}
+/* buttons specifics */
+.Buttons{
+    display: flex;
+    gap: 15px;  
+    
+}
+.Cv-Download{
+    background-color: white;
+}
+.Cv-Download:hover{
+    background-color: gray;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+.Contact-Ifno{
+    background-color: gray;
+    color: white;
+}
+.Contact-Ifno:hover{
+    background-color: white;
+    transition-duration: 0.4s;
+    color: black;
+
+}
+.btns{
+    border-radius: 45px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 11px 11px;
+}
+
+/* links */
+.gitAndLinkd{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About Section Code */
+.aboutSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+}
+.AboutInfo{
+    text-align: center;
+}
+
+.MyAboutImage{
+    width: 20rem;
+    border-radius: 4rem;
+}
+.MedalPhoto{
+    width: 1rem;
+}
+.EducationPhoto{
+    width: 1rem;
+}
+.MainAbout{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+.AboutRightSide{
+    display: flex;
+    gap: 20px;
+}
+.AboutExperiance{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    width: 200px;
+    height: 90px;
+    padding: 10px;
+}
+.TxtExp{
+    font-weight: bold;
+    font-size: 18px;
+}
+.AboutTexts{
+    font-size: 12px;
+    color: gray;
+}
+.Textp{
+    color: gray;
+    font-size: 18px;
+}
+.SectionRightAbout{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Experience Page */
+.ExperiencePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    height: 90vh;
+}
+
+.ExperienceSection{
+    display: flex;
+    gap: 40px;
+}
+.ExperienceRightSection{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+
+}
+
+/* sds */
+.BadgePhoto{
+    width: 20px;
+}
+.ExperienceClass{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+   
+}
+.ExperienceTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ExploreMore{
+    color: gray;
+    font-size: 15px;
+}
+.Experiencetitle{
+    font-size: 1.5em;;
+    font-weight: bold;
+}
+/* Projects page Code */
+
+.ProjectsSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.ProjectTexts{
+    color: gray;
+    font-size: 14px;
+}
+.ProjectTitle{
+    font-size:  1.5em;;
+}
+.Project1Photo{
+    max-width: 300px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+}
+.MainProjectSection{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+.ProjectSections{
+    position: relative;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    
+    
+}
+/* Projects dections Hover */
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f0ebe3;
+}
+  
+.ProjectSections:hover .overlay {
+    opacity: 5;
+}
+  
+.text {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.ProjectButtons{
+    width: 90px;
+    border-radius: 45px;
+    border: 1px solid gray;
+    cursor: pointer;
+    padding: 11px;
+    background-color: white;
+    font-size: 13px;
+    margin: 5px;
+
+}
+.ProjectButtons:hover{
+    background-color: gray;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+/* Contact Page Code */
+.ContactSections{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+.ConatxtsTxt{
+    color: gray;
+    font-size: 14px;
+
+}
+.Contacts{
+    background-color: white;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 30px;
+    
+}
+.ContactsSizes{
+    display: flex;
+    padding: 20px;
+    gap: 6px;
+}
+.ContatcsTag{
+    text-decoration: none;
+    color: black;
+}
+.ContatcsTag:hover{
+    color: gray;
+
+}
+.ContactEmailPhoto{
+    width: 20px;
+    border-radius: 25px;
+}
+.ContactLinkedinPhoto{
+    width: 20px;
+    border-radius: 25px;
+}
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+footer p {
+    text-align: center;
+}

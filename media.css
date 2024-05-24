@@ -1,0 +1,199 @@
+@media  only screen and  (max-width : 2500px){
+    .hamburgeMenu{
+        display: none;
+    }
+}
+@media  only screen and  (max-width : 390px){
+    .NavUl{
+        display: none;
+    }
+    
+    .Main-Section{
+        flex-direction: column; 
+        margin-bottom: 40px;
+        
+    }
+    .RighSeCtionSide{
+        padding: 30px;
+    }
+    .Main-Logo{
+        margin-top: 10px;
+    }
+    .MyImage{
+        margin-top: 40px;
+    }
+    /* About Page Resp */
+    .MainAbout{
+        display: flex;
+        flex-direction: column;
+    }
+    .ttext{
+        max-width: 360px;    }
+    .Textp{
+        text-align:center;
+    }
+    .aboutSection{
+        margin-bottom: 450px;
+    }
+    .AboutRightSide{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Exprerience Page Resp */
+    .ExperiencePage{
+        margin-bottom: 200px;
+        max-width: 100%;
+        
+    }
+    .ExperienceRightSection{
+        width: 200px;
+        padding: 0;
+    }
+    .ExperienceSection{
+        flex-direction: column;
+        width: 200px;
+        align-items: center;
+    }
+
+    
+      /* Projects Page Resp */
+    .ProjectsSection{
+        margin-bottom: 100px;
+        max-width: 360px;        
+    }
+    .MainProjectSection{
+        flex-direction: column;
+        width: 90%;
+    }
+    /* Contacts Page Resp */
+    .Contacts{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    /* footer Nav */
+    .FooterUL{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    /* hambuger menu */
+    .hamburgeMenu{
+        width: 40px;
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .header{
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+    .header a{
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+     }
+    
+}
+@media  only screen and  (max-width : 360px){
+    .NavUl{
+        display: none;
+    }
+    
+    .Main-Section{
+        flex-direction: column; 
+        margin-bottom: 40px;
+        
+    }
+    .RighSeCtionSide{
+        padding: 30px;
+    }
+    .Main-Logo{
+        margin-top: 10px;
+    }
+    .MyImage{
+        margin-top: 40px;
+    }
+    /* About Page Resp */
+    .MainAbout{
+        display: flex;
+        flex-direction: column;
+    }
+    .ttext{
+        max-width: 360px;    }
+    .Textp{
+        text-align:center;
+    }
+    .aboutSection{
+        margin-bottom: 450px;
+    }
+    .AboutRightSide{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Exprerience Page Resp */
+    .ExperiencePage{
+        margin-bottom: 200px;
+        max-width: 100%;
+        
+    }
+    .ExperienceRightSection{
+        width: 200px;
+        padding: 0;
+    }
+    .ExperienceSection{
+        flex-direction: column;
+        width: 200px;
+        align-items: center;
+    }
+
+    
+      /* Projects Page Resp */
+    .ProjectsSection{
+        margin-bottom: 100px;
+        max-width: 360px;        
+    }
+    .MainProjectSection{
+        flex-direction: column;
+        width: 90%;
+    }
+    /* Contacts Page Resp */
+    .Contacts{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    /* footer Nav */
+    .FooterUL{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    /* hambuger menu */
+    .hamburgeMenu{
+        width: 40px;
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .header{
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+    .header a{
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+     }
+    
+}
